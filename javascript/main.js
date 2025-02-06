@@ -12,10 +12,10 @@
 // console.log(typeof pekerjaan)
 // console.log(typeof tinggiBadan)
 
-let angka = prompt('masukkan angka?')
+let angka = 50
 
-if(angka % 2 == 0){
-    alert(angka + ' adalah bilangan genap')
-}else{
-    alert(angka + ' adalah bilangan ganjil')
-} //modulus % sisa bagi 
+for(i=1; i < angka; i = i + 1){
+    if(i % 2 == 1){
+        console.log(i + ' adalah bilangan ganjil')
+    }
+}
