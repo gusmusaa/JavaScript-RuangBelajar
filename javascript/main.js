@@ -20,10 +20,19 @@
 //     }
 // }
 
-let angka = 0
-for (i=1; i <= 50; i++){
-  angka += i
+// Tugas 1 js
+
+// let angka = 0
+// for (i=1; i <= 50; i++){
+//   angka += i
+// }
+
+// console.log(angka)
+
+//Tugas 2 js
+
+function revWord(kata){
+  return kata.split('').reverse().join('');
 }
 
-console.log(angka)
-
+console.log(revWord('loob'));
