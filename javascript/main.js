@@ -20,14 +20,14 @@
 //     }
 // }
 
-// Tugas 1 js
+//Tugas 1 js
 
-// let angka = 0
-// for (i=1; i <= 50; i++){
-//   angka += i
-// }
+let angka = 0
+for (i=1; i <= 50; i++){
+  angka += i
+}
 
-// console.log(angka)
+console.log(angka)
 
 //Tugas 2 js
 
