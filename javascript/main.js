@@ -35,4 +35,4 @@ function revWord(kata){
   return kata.split('').reverse().join('');
 }
 
-console.log(revWord('loob'));
+console.log(revWord('loob'));              
