@@ -4,18 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="stylee.css" />
   </head>
   <body>
-      
     <div class="container">
-        <input type="text" placeholder="ID" id="username" /><br><br>
-        <input type="password" placeholder="password" id="password" /><br><br>
-        <button onclick="onLogin()">submit</button>
-        <h1 id="h1">AHHH ENAK CROTT</h1>
-        <h1 id="h2">duh enak bangke</h1>
-        
-        <script src="DOM.js"></script>
+      <h1>Halaman login</h1>
+      <div id="input">
+        <input type="text" placeholder="ID" id="username" /><br /><br />
+        <input type="password" placeholder="password" id="password" /><br /><br />
+        <input type="text" placeholder="email" id="email"><br><br>
+      </div>
+      <button onclick="onLogin()" id="login">submit</button>
+      <button onclick="onLogout()" id="logout">logOut</button>
+      <button onclick="onRegis()" id="register">register</button>
+
+      <h1 id="h1">Admin</h1>
+      <h1 id="h2">Client</h1>
+      <h1 id="reg">REGISKAN DULU LEE</h1>
+
+      <script src="DOM.js"></script>
     </div>
+    
   </body>
 </html>

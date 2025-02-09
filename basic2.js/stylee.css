@@ -2,6 +2,23 @@ body{
     background-color: aqua;
 }
 
+#reg{
+    text-align: center;
+    font-size: 100px;
+}
+
 .container{
-    margin: 50px auto;
+    width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+.container h1{
+    text-align: center;
+}
+
+#register{
+    margin-top: 10px;
 }
