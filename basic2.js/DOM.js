@@ -66,7 +66,11 @@ if(localStorage.getItem('username')){
 }
 
 function onRegis(){
-    if(username == "" && password == ""){
+    let userValue = username.value
+    let passValue = password.value
+    let emailValue = email.value
+
+    if("admin" && "123"){
         email.style.display = 'block'
     }
 }
