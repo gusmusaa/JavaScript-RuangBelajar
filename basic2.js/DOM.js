@@ -21,7 +21,7 @@ buttonLogout.style.display = 'none';
 buttonLogin.style.display = 'block';
 input.style.display = "block";
 email.style.display = "none"
-reg.style.display = "none"
+// reg.style.display = "none"
 
 function onLogin(){
     let userValue = username.value.trim();
@@ -65,11 +65,11 @@ if(localStorage.getItem('username')){
     buttonLogout.style.display = 'block';
 }
 
-// function onRegis(){
-//     if(){
-//         email.style.display = 'block'
-//     }
-// }
+function onRegis(){
+    if(username == "" && password == ""){
+        email.style.display = 'block'
+    }
+}
 
 function onLogout(){
     localStorage.clear();
